@@ -31,13 +31,8 @@ testing {
         }
     }
 }
-test {
-    useJUnitPlatform()
-}
+
 application {
     // Define the main class for the application.
-    mainClass = 'SumCalculator.App'
-}
-task prepareKotlinBuildScriptModel {
-
+    mainClass = 'HW4SQL.App'
 }

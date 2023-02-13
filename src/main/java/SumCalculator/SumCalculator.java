@@ -13,7 +13,7 @@ public class SumCalculator {
             if (sum != 0) {
                 return sum;
             } else {
-                throw new IllegalArgumentException("Invalid input data");
+                throw new IllegalArgumentException("Invalid data");
             }
         }
 
